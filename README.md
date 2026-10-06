@@ -105,6 +105,26 @@ phdai733-group8/
 
 ---
 
+## Part 2 — due Friday, 16 October 2026
+
+Model optimization, real-world impact, and ethical evaluation.
+
+```
+part2/
+    notebooks/
+        Group8_Part2_Analysis.ipynb, executed with outputs
+    figures/
+        exported PNGs for the written report
+    report/
+        written deliverable and section ownership
+```
+
+Analysis covers nested cross-validation, probability calibration, cost-based threshold selection,
+and a 30-split replication testing whether a group-specific threshold closes the subgroup recall
+gap found in Part 1.
+
+---
+
 ## 5. Methodological & Technical Rigor
 
 1. **Target Polarity Validation:** Cross-referenced raw target codes against established clinical indicators (fluoroscopy vessels `ca`, exercise ST depression `oldpeak`, exercise angina `exang`) to correct an inverted mirror label convention (`disease = 1 - target`).

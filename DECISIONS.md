@@ -50,6 +50,10 @@ This decision log serves as the primary auditable record of the research process
 - **2026-09-25 — Preprocessing & Visualization Notebook Contribution:** Harini Mamidala developed and contributed her standalone exploration notebook (`part1/notebooks/Harini_Mamidala_Preprocessing_Visualization.ipynb`) covering data profiling, distribution visualisations, and categorical preprocessing — Harini
 - **2026-09-25 — Final Deliverables & Repository Updates:** Finalizing submission assets ahead of the deadline; transmitted the final report via email (Outlook) to the research cohort, committed final files to GitHub, and updated the shared Google Colab notebook per Harini's recommendations — Subba & Harini; shared with team
 - **2026-09-25 — Pending Actions & Submission Quality Hold:** Enacted a temporary hold on the final LMS submission until 2026-09-26 afternoon to accommodate Christian's final review/audit and catch any last-minute flags — Christian & Team consensus
+- **2026-10-05 — Part 2 Analysis Notebook:** Committed nested cross-validation, calibration assessment, cost-based threshold analysis, and 30-split group-threshold replication to part2/notebooks/ so all members work from identical figures — Subba
+- **2026-10-05 — Part 2 Section Allocation:** Divided work across the eight rubric criteria rather than the five brief sections, since Problem Definition, Dataset Exploration, and Teamwork have no named section in the Part 2 brief — Team consensus
+- **2026-10-06 — Nested Cross-Validation Caveat:** Noted that the nested evaluation used the full dataset including the held-out test patients, so the later test-set result is not fully independent of model selection; recorded as a limitation rather than corrected, given the timeline — Subba
+- **2026-10-06 — Threshold Selection Caveat:** Recorded that cost-optimal thresholds were selected using test outcomes, making those results exploratory; proper practice is selection on training folds with evaluation on untouched data — Subba
 
 ---
 
